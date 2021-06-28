@@ -1,18 +1,18 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    //id 'com.google.ar.sceneform.plugin'
+    id 'com.google.ar.sceneform.plugin'
     id 'kotlin-android-extensions'
 }
-apply plugin: 'com.google.ar.sceneform.plugin'
+/*
 sceneform.asset(
         //model
-        'sampledata/models/Chair.obj',
+        'sampledata/models/car.obj',
         'default',
         //human readable
         'sampledata/models/Chair.sfa',
         'src/main/res/raw/chair'
-)
+)*/
 
 android {
     compileSdkVersion 30
